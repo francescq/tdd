@@ -1,9 +1,9 @@
 var path = require('path');
 var expect = require('chai').expect;
 
-var test = require(path.join(__dirname, '..', './test.js'));
+var test = require(path.join(__dirname, '..', './test2.js'));
 
-describe('test()', function () {
+describe('test2()', function () {
     'use strict';
 
     it('exists', function () {
